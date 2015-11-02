@@ -1,0 +1,45 @@
+Config:
+
+button:
+
+{
+  text: string,
+  className: string | array,
+  color: string,
+  style: string|array,
+
+  others: object,
+  events: object
+}
+
+icon:
+
+{
+  icon: string,
+  color: string,
+  style: string|array,
+
+  others: object,
+  events: object
+}
+
+buttonsGroup:
+
+{
+  group: array(object),
+  icon: boolean,
+  labeled: boolean,
+  color: string,
+  style: string|array,
+
+  others: object,
+  events: object
+}
+
+iconButton:
+
+{
+  button: object(button),
+  icon: object(icon),
+  labeled: boolean
+}

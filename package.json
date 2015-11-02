@@ -1,0 +1,20 @@
+{
+  "name": "semantic-ui-react",
+  "version": "1.0.0-alpha",
+  "description": "Semantic ui react is a module to use the framework Semantic-ui with React js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Barata",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  },
+  "devDependencies":{
+    "uniq": "^1.0.1",
+    "watchify": "^3.4.0",
+    "browserify": "^11.2.0"
+  }
+}
