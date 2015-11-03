@@ -14,8 +14,11 @@ var configuration = function(config,react){
   // Lo guardo en un nuevo objeto, para no modificar el original
   var configButtonsGroup = {};
   var labeled;
-
+  var icon;
+  // objects
   configButtonsGroup.group = config.group;
+
+  // booleans
   configButtonsGroup.icon = config.icon;
   configButtonsGroup.labeled = config.labeled;
 
@@ -23,8 +26,6 @@ var configuration = function(config,react){
   if(COLOR_BUTTONS_GROUP.hasOwnProperty(config.color)){
     config.color = COLOR_BUTTONS_GROUP[config.color];
   }
-
-
 
   // Compruebo si tiene el atributo text
   if(config.hasOwnProperty('text')){
